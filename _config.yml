@@ -4,17 +4,17 @@
 
 # Site
 title: DZBlog
-subtitle:
-description:
+subtitle: Dezang's Blog
+description: 아몰랑
 author: Dezang
-language:
-timezone:
+language: ko
+timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://dezang.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -68,4 +68,5 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:dezang/dezang.github.io.git
