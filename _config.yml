@@ -7,8 +7,15 @@ title: DZBlog
 subtitle: Dezang's Blog
 description: 아몰랑
 author: Dezang
-language: ko
+language: en
 timezone: Asia/Seoul
+
+## Keywords
+keywords:
+  - hexo
+  - spring
+  - react
+  - aws
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,10 +70,33 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: bunker
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:dezang/dezang.github.io.git
+
+## RSS Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+## Search
+algolia:
+  appId: "EW46VJZ89M"
+  apiKey: "ee53400728ac20bf8cee664f2903a109"
+  adminApiKey: "7ef746a7697e48259e5083b34c275e7c"
+  chunkSize: 5000
+  indexName: "dzblog-hexo"
+  fields:
+    - title
+    - date
+    - permalink
+    - thumbnailImageUrl
+    - tags
+    - categories
+    - excerpt
+    - excerpt:strip
