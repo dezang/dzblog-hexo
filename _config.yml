@@ -78,11 +78,15 @@ deploy:
   type: git
   repo: git@github.com:dezang/dezang.github.io.git
 
+## sitemap auto generator
+sitemap:
+  path: sitemap.xml
+
 ## RSS Feed
 feed:
   type: atom
-  path: atom.xml
-  limit: 20
+  path: feed.xml
+  limit: false
 
 ## Search
 algolia:
