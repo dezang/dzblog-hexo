@@ -76,7 +76,7 @@ sidebar:
             icon: facebook
         google_plus:
             title: global.google_plus
-            url: https://plus.google.com/+DezangNetPage/
+            url: https://plus.google.com/+DezangNetPage
             icon: google-plus
         tumbler:
             title: DZThink
@@ -90,11 +90,11 @@ sidebar:
         #     title: global.mail
         #     url: mailto:
         #     icon: envelope-o
-    # rss:
-    #     rss:
-    #         title: global.rss
-    #         url: /atom.xml
-    #         icon: rss
+    rss:
+        rss:
+            title: global.rss
+            url: /feed.xml
+            icon: rss
 
 
 # Header configuration
