@@ -70,7 +70,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: bunker
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -87,20 +87,3 @@ feed:
   type: atom
   path: feed.xml
   limit: false
-
-## Search
-algolia:
-  appId: "EW46VJZ89M"
-  apiKey: "ee53400728ac20bf8cee664f2903a109"
-  adminApiKey: "7ef746a7697e48259e5083b34c275e7c"
-  chunkSize: 5000
-  indexName: "dzblog-hexo"
-  fields:
-    - title
-    - date
-    - permalink
-    - thumbnailImageUrl
-    - tags
-    - categories
-    - excerpt
-    - excerpt:strip

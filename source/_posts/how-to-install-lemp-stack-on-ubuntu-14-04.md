@@ -40,9 +40,7 @@ $ ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 FE80 :: 601 : 17ff : fe61 : 9801
 ```
 
-{% alert info %}
 명령어를 입력하기 어렵다면 `ip addr show eth0` 만으로도 충분히 ip를 식별할 수 있을 것이다. 유명한 `ifconfig` 명령어로도 알 수 있다. 공인 아이피가 `eth0` 에 설정되지 않고 다른 이더넷에 설정되었을 수도 있으니 개인적으로는 `ifconfig` 명령어를 사용하여 확인하는 것을 추천한다.
-{% endalert %}
 
 또는 `iconhazip` 사이트를 이용하여 알 수도 있다.
 
@@ -136,9 +134,7 @@ $ sudo service php5-fpm restart
 $ sudo vim /etc/nginx/sites-available/default
 ```
 
-{% alert info %}
 이 원문의 마지막 업데이트는 2014년 7월. 이 글을 번역하는 2015년 3월 26일 기준으로 디폴트 엔진엑스 서버 블록 구성 파일의 위치는 `/etc/nginx/conf.d/default.conf` 이다.
-{% endalert %}
 
 주석처리가 된 부분을 제거하면, 엔진엑스의 기본 서버 블록 파일은 아래와 같을 것이다.
 

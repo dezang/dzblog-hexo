@@ -9,7 +9,7 @@ tags:
 
 애덤 리바인의 장편 뮤직 비디오 같았던 비긴 어게인 리뷰
 
-<!-- excerpt -->
+<!-- more -->
 
 ---
 {% youtube vyT-oGDnMqE %}
